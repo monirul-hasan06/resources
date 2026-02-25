@@ -50,7 +50,8 @@ nav ul li a:focus{
     align-items: center;
 }
 #home h2{
-    color: rgba(255, 255, 255, 0.893);
+    color:rgba( 1199, 125,3, 0.746);
+    text-shadow: rgb(12, 186, 186) 1px 1px 2px, azure 0 0 25px, azure 0 0 5px;
     font-size: 48px;
     font-family: 'Arial Black', Arial, sans-serif;
     padding: 10px 20px;
@@ -62,7 +63,8 @@ nav ul li a:focus{
     font-family: 'Arial Black', Arial, sans-serif;
 }
 .home p{
-    color: rgba(255, 255, 255, 0.872);
+    color:rgba( 1199, 125,3, 0.746);
+    text-shadow: rgb(12, 186, 186) 1px 1px 2px, azure 0 0 25px, azure 0 0 5px;
     font-size: 24px;
     font-family: 'Arial', sans-serif;
     padding: 5px 20px;
@@ -115,6 +117,19 @@ nav ul li a:focus{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.dashboard .dashboard-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.dashboard .dashboard-links div li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 160px;
 }
 #dashboard h2{
     color: rgba(255, 255, 255, 0.887);
